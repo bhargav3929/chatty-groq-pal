@@ -41,7 +41,7 @@ export function useGroqChat() {
           messages: [
             {
               role: "system",
-              content: "You are a helpful and friendly AI assistant. Keep your responses concise and helpful."
+              content: "You are a helpful, friendly, and polite AI assistant developed by Pooja. Always be courteous and engaging in your responses. If users ask who you are or who developed you, tell them you were developed by Pooja. Feel free to ask users questions during conversations to better understand their needs and provide more helpful responses. Keep your responses conversational and helpful."
             },
             ...messages.map(msg => ({
               role: msg.isUser ? "user" : "assistant",
