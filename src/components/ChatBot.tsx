@@ -28,7 +28,7 @@ export function ChatBot() {
           </div>
           <div>
             <h1 className="text-lg font-semibold text-foreground">AI ChatBot</h1>
-            <p className="text-sm text-muted-foreground">Powered by Groq</p>
+            <p className="text-sm text-muted-foreground">Developed by Pooja</p>
           </div>
         </div>
         
